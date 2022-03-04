@@ -1,0 +1,4 @@
+Violations-
+Entity2 : contains redundant foreign keys. If they don't repreent foreign keys, should be renamed.
+Rel6 : It is an identifying relationship but doesn't contain weak entity type. Can be resolved by changing Entity4 to weak entity type or by changing REl6 to non-identifying.
+Entity6 : It is a weak entity type but identifying relationship doesn't contain cardinality(1,1) at parent. Can be reolved by changing cardinality near Entity7 or by changing REl7 to non-identifying and Entity6 to strong.
